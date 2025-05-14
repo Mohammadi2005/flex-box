@@ -1,0 +1,50 @@
+.flex-container{
+    width: 600px;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.flex-item{
+    font-family: cursive;
+    font-size: 55px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: burlywood;
+    margin: 5px 0px 5px 0px;
+    border-radius: 6px;
+}
+
+
+.cont1{
+    justify-content: flex-start;
+}
+
+.cont2{
+    justify-content: flex-end;    
+}
+
+.cont3{
+    justify-content: center;
+}
+
+.cont4{
+    justify-content: space-between;
+}
+
+.cont5{
+    justify-content: space-around;
+}
+
+.cont6{
+    justify-content: space-evenly;
+}
+
+
+
+
